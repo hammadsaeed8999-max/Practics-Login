@@ -303,3 +303,118 @@ input::placeholder{
         height: auto;
     }
 }
+
+/* Sub Page Style Start */
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #4e73ec;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 130px;
+
+}
+
+.links>ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+}
+
+.links>ul>li>a{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.logo>img{
+    height: 100px;
+
+}
+
+@media screen and (max-width:380px) {
+         nav{
+            display: none;
+         }
+}
+
+.sides{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+}
+
+.text{
+       border: 2px solid black;
+       height: 400px;
+}
+
+.text>h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(249, 249, 249);
+    text-align: justify;
+}
+
+.text>p{
+    line-height: 30px;
+    color: wheat;
+}
+
+
+.img{
+       border: 2px solid black;
+}
+
+.img>img{
+    width: 600px;
+    height: 400px;
+}
+
+.About>h1{
+    font-size: 60px;
+}
+
+.About>h1>span{
+    border-bottom: 15px solid red;
+    margin-left: 450px;
+}
+
+.left-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 400px;
+}
+
+.image3{
+    border: 2px solid black;
+}
+
+.image3>img{
+    height: 600px;
+}
+
+.text5{
+    border: 2px solid black;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.text5>h1{
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.text5>h2{
+    color: red;
+    margin-left: 30px;
+}
+
+.text5>p{
+    margin-left: 30px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+}
